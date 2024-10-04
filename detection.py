@@ -4,7 +4,7 @@ from pubsub import pub
 
 def detect_file():
     user_home = os.path.expanduser('~')
-    music_dir = os.path.join(user_home, 'Downloads', 'Music')
+    music_dir = os.path.join(user_home, 'Downloads')
     
     for file_name in os.listdir(music_dir):
         if file_name.endswith('.zip'):

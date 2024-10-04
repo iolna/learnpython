@@ -5,7 +5,7 @@ from pubsub import pub
 
 def process_file(file_path):
     user_home = os.path.expanduser('~')
-    music_dir = os.path.join(user_home, 'Downloads', 'Music')
+    music_dir = os.path.join(user_home, 'Downloads')
     
     with zipfile.ZipFile(file_path, 'r') as zip_ref:
         zip_ref.extractall(music_dir)
