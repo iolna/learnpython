@@ -3,3 +3,6 @@
 
 # Loại bỏ 
 venv/
+
+# Loại bỏ
+__pycache__/
